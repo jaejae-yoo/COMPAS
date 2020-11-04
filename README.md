@@ -55,8 +55,11 @@
         1) 각 행정구역별 3년간 증가한 전기차 수 choropleth 표현
         2) 등록되어있는 자동차 현황 heatmap 표현
         3) 인구분포 heatmap 표현
-        
-        ➡️ 광양읍, 중마동에 집중되어 있음을 확인
+<div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img width=280 src="https://user-images.githubusercontent.com/61091307/98155278-51af0480-1f19-11eb-80bf-8e5c66d54a59.PNG">
+<img width=300 src="https://user-images.githubusercontent.com/61091307/98155374-7b682b80-1f19-11eb-866d-8ba76ae0ea7c.PNG">
+<img width=300 src="https://user-images.githubusercontent.com/61091307/98155430-920e8280-1f19-11eb-8f9a-552f35387804.PNG">
+</div> ➡️(사진 순서대로) 3년간 전기차 수 증가량, 자동차 현황, 인구분포가 광양읍, 중마동에 집중되어 있음을 확인       
         
 - ### 2.5 K-Means clustering를 이용한 군집화 & 최종 위치 선정
        ✔️2.5.1)전처리한 테이블을 급속 / 완속으로 나눔
@@ -69,6 +72,8 @@
        ✔️2.5.2) K-means clustering 이용하여 충전기 설치 할 위치들 군집화 후 위치선정
             1) 각 데이터들 상대적으로 인구분포, 자동차등록현황, 전기차증가량을 고려한 인구분포_자동차등록_전기차 컬럼 추가
             2) kmeans군집화에 '인구분포','자동차등록현황','전기차증가량' 세 개의 컬럼을 넣고 20개의 군집으로 나타내기 위해 n_clusters를 20으로 설정 -> 완속충전기, 급속충전기 각각 진행
+
+- ### 급속충전기 빨간색으로 표현 / 완속충전기 파란색으로 표현  
 <div>
-<img width=400 src="https://user-images.githubusercontent.com/61091307/98154673-79519d00-1f18-11eb-8417-25bb2730b55f.PNG">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img width=500 src="https://user-images.githubusercontent.com/61091307/98154673-79519d00-1f18-11eb-8417-25bb2730b55f.PNG">
 </div>
