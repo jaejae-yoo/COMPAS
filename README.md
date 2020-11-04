@@ -59,7 +59,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img width=280 src="https://user-images.githubusercontent.com/61091307/98155278-51af0480-1f19-11eb-80bf-8e5c66d54a59.PNG">
 <img width=300 src="https://user-images.githubusercontent.com/61091307/98155374-7b682b80-1f19-11eb-866d-8ba76ae0ea7c.PNG">
 <img width=300 src="https://user-images.githubusercontent.com/61091307/98155430-920e8280-1f19-11eb-8f9a-552f35387804.PNG">
-</div> ➡️(사진 순서대로) 3년간 전기차 수 증가량, 자동차 현황, 인구분포가 광양읍, 중마동에 집중되어 있음을 확인       
+</div> 
+&nbsp;&nbsp;➡️(사진 순서대로) 3년간 전기차 수 증가량, 자동차 현황, 인구분포가 광양읍, 중마동에 집중되어 있음을 확인       
         
 - ### 2.5 K-Means clustering를 이용한 군집화 & 최종 위치 선정
        ✔️2.5.1)전처리한 테이블을 급속 / 완속으로 나눔
