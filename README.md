@@ -74,7 +74,14 @@
             1) 각 데이터들 상대적으로 인구분포, 자동차등록현황, 전기차증가량을 고려한 인구분포_자동차등록_전기차 컬럼 추가
             2) kmeans군집화에 '인구분포','자동차등록현황','전기차증가량' 세 개의 컬럼을 넣고 20개의 군집으로 나타내기 위해 n_clusters를 20으로 설정 -> 완속충전기, 급속충전기 각각 진행
 
-- ### 🔸 급속충전기 빨간색으로 표현 / 🔹 완속충전기 파란색으로 표현  
+## 분석 결과
+#### 급속충전기 20개 / 완속충전기 20개 위치 선정 결과
 <div>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img width=500 src="https://user-images.githubusercontent.com/61091307/98154673-79519d00-1f18-11eb-8417-25bb2730b55f.PNG">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img width=500 src="https://user-images.githubusercontent.com/61091307/98156866-c8e59800-1f1b-11eb-982e-f5f21e3cce0c.PNG">
 </div>
+
+#### 🔸 급속충전기 빨간색으로 표현 / 🔹 완속충전기 파란색으로 표현  
+<div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img width=400 src="https://user-images.githubusercontent.com/61091307/98154673-79519d00-1f18-11eb-8417-25bb2730b55f.PNG">
+</div>
+
